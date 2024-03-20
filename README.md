@@ -8,15 +8,18 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import the standard libraries.
+2.Upload the dataset and check for any null or duplicated values using .isnull() and .duplicated() function respectively.
+3.Import LabelEncoder and encode the dataset.
+4.Import LogisticRegression from sklearn and apply the model on the dataset.
+5.Predict the values of array.
+6.Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
+7.Apply new unknown values.
 
 ## Program:
 ```python
 '''
-Program to implement the linear regression using gradient descent.
+Program to implement the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by : K MADHAVA REDDY
 RegisterNumber : 212223240064
 '''
@@ -76,8 +79,30 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 
 ## Output:
-![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
-
+### Head 
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/6a256453-451f-4171-935a-1db371002b68)
+### After removing sl_no , salary
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/d8680a74-fcac-486b-b508-92761e5ec9e1)
+### Null data 
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/a7dbeeea-8de8-46a7-bf20-f59980fbd9f5)
+### Duplicated sum
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/c7fb3459-228a-4aab-a6ef-0edc6923ef42)
+### Label Encoder
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/659547bc-8cfe-4d89-b906-169e516c3645)
+### After removing the last column
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/3ae6ad4d-7629-4d51-b6f6-bf90f174d587)
+### Displaying the status
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/78a45b96-783a-42c4-956d-74b01612de73)
+### Prediction of y
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/5effafab-09db-4613-9102-e34812e71e71)
+### Accuracy score
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/d21a9da9-5df9-4f77-948d-21e545edd318)
+### Confusion 
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/4c888ccd-e65d-43df-9fcd-0ef304b2e376)
+### Classification report
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/b0db5fc0-87ac-4448-a893-6ff1a2d51100)
+### Prediction
+![image](https://github.com/Madhavareddy09/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/145742470/35b841aa-992a-4eda-a43c-4f982e82daa1)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
